@@ -1,0 +1,16 @@
+git init
+git remote add origin url_репозитория
+git fetch origin
+git reset --mixed origin/master
+git add измененные файлы
+git commit -m "комментарий к коммиту"
+git push -u origin master
+
+git branch <название_ветки> - создание ветки
+git checkout <название_ветки> - переключаться между ветками
+# Переключаемся в master
+git checkout master
+# Обновляем локальную ветку с сервера
+git pull origin master
+# Делаем merge вашей ветки, в ветку в которой вы находитесь # В данном примере это master
+git merge <название_ветки>

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ee5d8b1.css",
+    "main.js": "/static/js/main.a93cca41.js",
+    "static/media/istockphoto-1425614751-640_adpp_is (online-video-cutter.com).mp4": "/static/media/istockphoto-1425614751-640_adpp_is (online-video-cutter.com).7a5313aba04c92ea5736.mp4",
+    "static/media/Снимок2.PNG": "/static/media/Снимок2.36ff4f43f8f2869b007f.PNG",
+    "static/media/Снимок5.PNG": "/static/media/Снимок5.53d3ddb340d55f9b4e02.PNG",
+    "static/media/Снимок4.PNG": "/static/media/Снимок4.3c55cfba2b8aa60ddca3.PNG",
+    "static/media/Снимок1.PNG": "/static/media/Снимок1.72c228cab16801119784.PNG",
+    "static/media/снимок3.jpg": "/static/media/снимок3.d5992221d524788db75e.jpg",
+    "static/media/png-transparent-blue-and-pink-logo-european-fashion-home-logo-purple-blue-furniture-transformed.png": "/static/media/png-transparent-blue-and-pink-logo-european-fashion-home-logo-purple-blue-furniture-transformed.5bb81baa79f731e5bb7b.png",
+    "static/media/free-icon-shopping-cart-6957439 (1).png": "/static/media/free-icon-shopping-cart-6957439 (1).88267359dfbcca5ac46a.png",
+    "static/media/free-icon-goods-1069102.png": "/static/media/free-icon-goods-1069102.35e145955c3431b98e94.png",
+    "static/media/neisp6957439.png": "/static/media/neisp6957439.b4f7c4c0fbf874c96983.png",
+    "static/media/free-icon-box-3638894.png": "/static/media/free-icon-box-3638894.5326a8d3b356f4aa54a7.png",
+    "static/media/free-icon-user-1077114.png": "/static/media/free-icon-user-1077114.33e7df0963941edbeb70.png",
+    "index.html": "/index.html",
+    "main.9ee5d8b1.css.map": "/static/css/main.9ee5d8b1.css.map",
+    "main.a93cca41.js.map": "/static/js/main.a93cca41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ee5d8b1.css",
+    "static/js/main.a93cca41.js"
+  ]
+}
