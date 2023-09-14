@@ -77,6 +77,13 @@
     }
 }
 
+@media screen and (max-width: 1350px){
+    .gllistfooter{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
 .footerblack{
     width: 30px;
     background-color:black;

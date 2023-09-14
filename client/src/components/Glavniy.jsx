@@ -1,22 +1,20 @@
 import React, { useEffect, useState} from "react";
 import styles from "./styles/Glavniy.module.css";
 import Tovar from "./Tovar";
-import cors from "cors";
+import Loader from "./parts/loader";
 
 const Glavniy=()=>{
     const [datebase, setDatebase] = useState();
-    const [loadidng, setLoading] = useState();
-
+    const [loadidng, setLoading] = useState(false);
+    console.log(loadidng);
     useEffect(()=>{
         setLoading(false);
         fetch("http://localhost:3001/api").then(res=>res.json())
         .then(res1=>{
             setDatebase(res1);
             setLoading(true);
-        });
+        })
     },[]);
-    console.log(datebase);
-
     return(
         <div>
             <div className={styles.videoblock}>
@@ -34,7 +32,7 @@ const Glavniy=()=>{
                 <p>Популярные товары</p>
                 <div className={styles.vivodtovar}>
                     <div className={styles.vivodtovarlenta}>
-                        {!loadidng && <h1>Идёт загрузка</h1>}
+                        {!loadidng && <Loader/>}
                         {loadidng && (datebase
                             .sort((x,y)=>y.prodaz - x.prodaz)
                             .slice(0,5)
